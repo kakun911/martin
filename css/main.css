@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    background-color: #222;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: linear-gradient(0deg, rgba(22, 21, 59, 1) 36%, rgba(64, 48, 22, 1) 100%, rgba(253, 187, 45, 1) 100%);
+    width: 100%;
+    height: 600px;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* выравнивает по вертикали */
+  justify-content: center; /* центрирует по горизонтали */
+  gap: 300px; /* расстояние между картинкой и текстом */
+}
+
+.header img{
+  width: 400px;
+  height: 500px;
+}
+
+.header h1{
+    font-weight: 800;
+    font-size: 100px;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.hero-info{
+    float: left;
+    width: 50%;
+}
+
+.hero{
+    padding: 100px;
+}
+
+.hero-info{
+    width: 530px;
+    padding-top: 70px;
+    float: right;
+    font-size: 20px;
+}
+
+
+.hero-img {
+  width: 350px;
+  height: 425px;
+}
+
+
+
+.intro-image img{
+    width: 50%;
+    border: 2px;
+}
+
+.martin-ukr img{
+    width: 50%;
+    border: 2px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.commandments {
+  background: #222;
+  padding: 25px;
+  margin-bottom: 40px;
+  padding-top: 100px;
+  padding-left: 250px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.post {
+  margin-bottom: 40px;
+  padding-top: 100px;
+}
+
+.post h2 {
+  text-align: center;
+}
+
+.post-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-left: 225px;
+  font-size: 20px;
+}
+
+.post-text {
+  flex: 2;
+}
+
+.post-image {
+  flex: 1;
+  text-align: center;
+}
+
+.post-image img {
+  width: 50%;
+
+}
+
