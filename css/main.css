@@ -135,13 +135,77 @@ img {
   margin: auto;
 }
 
-@media (max-width: 768px) {
-  .hero {
+/* 📱 Адаптация сайта для телефонов и планшетов */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+
+  .header {
     flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 40px 0;
+    gap: 40px;
+  }
+
+  .header img {
+    width: 250px;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 60px;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero-info {
+    float: none;
+    width: 100%;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .intro-image img {
+    width: 80%;
+  }
+
+  .commandments {
+    padding: 40px 20px;
+    font-size: 18px;
+  }
+
+  .commandments h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .post-content {
+    flex-direction: column;
+    padding: 20px;
     text-align: center;
   }
 
-  .hero img {
+  .post-text {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .post-image img {
     width: 70%;
+  }
+
+  .martin-ukr img {
+    width: 80%;
+    padding: 20px 0;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
   }
 }
