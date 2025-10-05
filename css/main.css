@@ -147,6 +147,8 @@ img {
     height: auto;
     padding: 40px 0;
     gap: 40px;
+    background: linear-gradient(0deg, rgba(22, 21, 59, 1) 36%, rgba(64, 48, 22, 1) 100%, rgba(253, 187, 45, 1) 100%);
+    width: 100%;
   }
 
   .header img {
@@ -155,7 +157,7 @@ img {
   }
 
   .header h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .hero {
