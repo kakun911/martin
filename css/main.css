@@ -44,11 +44,6 @@ img {
     font-size: 100px;
 }
 
-.container {
-    width: 1400px;
-    margin: 0 auto;
-}
-
 
 .hero-info{
     float: left;
@@ -138,7 +133,7 @@ img {
 /* 📱 Адаптация сайта для телефонов и планшетов */
 @media (max-width: 1024px) {
   .container {
-    width: 90%;
+    width: 100%;
   }
 
   .header {
@@ -147,7 +142,10 @@ img {
     height: auto;
     padding: 40px 0;
     gap: 40px;
+    background: linear-gradient(0deg, rgba(22, 21, 59, 1) 36%, rgba(64, 48, 22, 1) 100%, rgba(253, 187, 45, 1) 100%);
+    width: 100%;
   }
+
 
   .header img {
     width: 250px;
@@ -155,8 +153,11 @@ img {
   }
 
   .header h1 {
-    font-size: 60px;
-  }
+  font-size: clamp(24px, 8vw, 80px);
+  line-height: 1.1;
+  word-wrap: break-word;
+  text-align: center;
+}
 
   .hero {
     padding: 50px 20px;
@@ -176,6 +177,7 @@ img {
   .commandments {
     padding: 40px 20px;
     font-size: 18px;
+    padding-left: 20px;
   }
 
   .commandments h2 {
